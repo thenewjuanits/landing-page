@@ -1,54 +1,95 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: monospace;
-    
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
     background-color: #1F2937;
-
+    padding: 20px 150px;
 }
 
-.main-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-}
-
-#logo-text {
+.header-logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-ul li{
-    display: inline-block;
-    list-style-type: none;
-    gap: 15px;
+.header-list {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-ul li a {
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+ul  {
+   list-style-type: none;
+   display: flex;
+   gap: 70px;
+   float: right;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.navigation-below {
+    padding: 100px 0px;
+    margin: 0px;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    
+    gap: 30px;
+}
+
+.navigation-below > div {
+    
+    width: 450px;
+    margin: 0px;
+    text-align: left;
+    height: 200px;
+
+
+}
+
+.text {
+   flex-grow: 0;
+}
+
 
 #main-text {
     font-size: 48px;
-    font-weight: 700px;
+    font-weight: 800px;
     color: #F9FAF8;
+   
 }
 
-#secondary-text{
+#secondary-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header-container {
-    display: flex;
-    background: blue;
-
+.image >p {
+    text-align: center;
+    vertical-align: middle;
+    color: #F9FAF8;
+    padding: 90px;
+    
 }
+
+.image {
+    flex-grow: 8;
+    background-color: #E5E7EB;
+}
+
+
+
+
 
 
